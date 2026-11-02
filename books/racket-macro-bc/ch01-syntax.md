@@ -17,6 +17,6 @@ title: "第1章 構文を受け取り、構文を返す"
 
 次に `raco expand code/example.rkt` で、実装したbcマクロの展開結果を確認します。詳細な展開形にはRacket内部の構文も現れます。ここでは、どの算術演算がどの順序で組み合わされているかを探してください。
 
-この章の今後の加筆: syntax と datum、衛生的マクロ、展開時と実行時の違いを、同じ式の前後を比較して解説します。
+第3章「マクロの仕組み」で、syntax と datum、衛生性、展開時と実行時の違いを、実装と対応させて詳しく解説します。
 
 参照: [The Racket Guide: Macros](https://docs.racket-lang.org/guide/macros.html)、[Syntax Objects](https://docs.racket-lang.org/guide/stx-obj.html)。
