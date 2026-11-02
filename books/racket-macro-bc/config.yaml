@@ -7,4 +7,5 @@ chapters:
   - intro
   - ch01-syntax
   - ch02-infix
+  - ch03-macros
   - closing

@@ -44,3 +44,7 @@ mise run test:racket
 出版工程は新版用に再設計するまで未対応です。元のEPUB検証には本書にない章・付録を要求する既知の問題があるため、そのまま流用しません。
 
 初期BSL教材: Grok・Codex、マクロ版の構想・初期コード・原稿: Codex。企画・監修: bluehive。元の [BSD 2-Clause License](LICENSE) と著作権表示を継承します。
+
+## マクロ解説の追加ドラフト
+
+[第3章 マクロの仕組み](books/racket-macro-bc/ch03-macros.md) を追加しました。[通読用ドラフト](drafts/racket-macro-bc/book-draft.md) は章順に結合したレビュー用文書です。正本の編集は `books/racket-macro-bc/` で行ってください。
