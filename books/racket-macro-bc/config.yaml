@@ -1,0 +1,10 @@
+title: "Racket のマクロでつくる bc"
+summary: "構文オブジェクトとマクロ展開を学び、中置記法の小さな電卓言語をつくる。GNU bc の完全互換は対象外。"
+topics: ["racket", "マクロ", "bc", "コンパイラ"]
+published: false
+price: 0
+chapters:
+  - intro
+  - ch01-syntax
+  - ch02-infix
+  - closing

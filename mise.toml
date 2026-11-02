@@ -1,0 +1,11 @@
+[tools]
+node = "22"
+
+[tasks."zenn:preview"]
+run = "npx zenn preview"
+
+[tasks."test:racket"]
+run = "raco test code/bc.rkt"
+
+[tasks."ci:test"]
+depends = ["test:racket"]

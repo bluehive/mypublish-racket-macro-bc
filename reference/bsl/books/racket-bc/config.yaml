@@ -1,0 +1,12 @@
+title: "Racket でつくる bc"
+summary: "Unix の電卓 bc / dc のクローンを Racket の教育用言語で実装する。仕様は cympfh『プログラミング dc』のスタック機械モデルに従う。今版は BSL 版（スタック／RPN）。マクロ版は後日。初稿: Grok、加筆: Codex。"
+topics: ["Racket", "BSL", "dc", "bc", "プログラミング入門"]
+published: false
+price: 0
+chapters:
+  - intro
+  - ch01-bsl-stack
+  - ch02-bsl-arith
+  - ch03-bsl-run
+  - closing
+toc_depth: 2

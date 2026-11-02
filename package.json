@@ -1,0 +1,9 @@
+{
+  "name": "mypublish-racket-macro-bc",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Racket のマクロでつくる bc — 中置記法の電卓言語",
+  "scripts": {"preview": "zenn preview", "test": "raco test code/bc.rkt"},
+  "devDependencies": {"zenn-cli": "^0.5.2"},
+  "engines": {"node": ">=18"}
+}

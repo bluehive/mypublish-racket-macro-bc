@@ -1,0 +1,33 @@
+# OS / Editor
+.DS_Store
+.idea/
+.vscode/
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+
+# Node
+node_modules/
+
+# Build tools
+tools/pandoc*/
+tools/pandoc.tar.gz
+
+# Build artifacts (keep directory structure)
+*.epub
+!output/racket-macro-bc/.gitkeep
+*.docx
+output/*
+!output/racket-macro-bc/
+!output/racket-macro-bc/.gitkeep
+!output/racket-macro-bc/README.md
+
+# Local only
+notes/private/
+drafts/_scratch/
+*.local.md
